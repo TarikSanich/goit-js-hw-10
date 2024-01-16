@@ -53,7 +53,9 @@ button {
   background: #CFCFCF;
 }
 
-
+button:not([disabled]):hover {
+  background: #6C8CFF;
+}
 
 
 .timer {
